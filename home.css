@@ -1,0 +1,96 @@
+* {
+    margin: 0 0 0;
+}
+
+h1 {
+    color: rgb(12, 12, 12);
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+h2 {
+    color: rgb(19, 248, 31);
+    font-size: 250%;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(64, 236, 21);
+    position: fixed;
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+}
+.contenedor {
+    display: grid;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.quien_soy {
+    padding-top: 20%;
+}
+
+.img1 {
+    width: 40%;
+    border-radius: 10%;
+    text-align: center;
+
+}
+
+.img2 {
+    width: 250px;
+    border-radius: 10%;
+}
+
+.img3{
+    width: 250px;
+    border-radius: 10%;
+    } 
+
+.img4 {
+    width: 250px;
+    border-radius: 10%;
+}
+
+.centrar1{
+    text-align: center;
+}
+
+.centrar2{
+    text-align: center;
+}
+
+.centrar3{
+    text-align: center;
+}
+
+.centrar4{
+    text-align: center;
+}
+
+
+.calendario {
+    padding-top: 20%;
+    }
+
+    @media(max-width: 1317px){
+
+            input#boton {
+            font-size: 20px;
+        }
+    
+        @media(max-width: 1000px) {
+            .titulo {
+                text-align: center;
+                color: rgb(236, 16, 189);
+                font-size: 70px;
+            }
+        }
+         }
